@@ -1,0 +1,12 @@
+body {
+    background-color: lightgrey;
+    border: 10px lightgrey solid  
+  }
+  #head {
+    color: darkblue;
+    font-family: cursive;
+    font-size: 100px;
+    text-align: center;
+    box-shadow: rgb(100 150 180) 25px 25px 25px; 
+  }
+  
