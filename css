@@ -1,0 +1,118 @@
+body {
+  backgroun-color: lightgrey;
+  border: 1px solid lightgrey solid  
+}
+#head {
+  color: darkblue;
+  font-family: cursive;
+  font-size: 100px;
+  text-align: center;
+  -webkit-box-shadow: rgb(100 150 180) 25px 25px 25px; 
+}
+
+#nav{
+  color: tomato;
+  background-color: tomato;
+  font-family: "helvatica";
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  padding: 20px 18px;
+  -webkit-box-shadow: rgb(100 150 180) 25px 25px 10px;   
+}
+
+
+
+ p {
+    font-family: "Helvatica", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-variant: normal;
+    margin: 10px;
+  } 
+
+
+
+ul {
+}
+li{
+list-style-type: circle;
+background: #ffe5e5;
+padding: 10px;
+margin: 5px;
+  }
+
+
+
+
+#all{
+  width: 75%;
+  padding: 5 px;
+  table-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:darkgrey;
+  border-style: groove;
+  border-width: 5px 2px;
+  border-spacing: 8px;
+  
+}
+#general{
+  width: 75% ;
+  background-color: navajowhite;
+  color: darkgrey;
+  table-align: center;
+  text-decoration: underline;
+  
+  
+ }  
+#app1{
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}  
+
+#sams2{
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}  
+
+#nokia{
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}  
+#blackberry {
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}  
+
+#employee{
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}    
+  
+
+  
+
+
+  
