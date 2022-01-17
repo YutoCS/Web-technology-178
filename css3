@@ -1,0 +1,143 @@
+body {
+  backgroun-color: lightgrey;
+  border: 1px solid lightgrey ;
+  background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg");
+  background-repeat: repeat;
+
+}
+#head {
+  color: darkblue;
+  font-family: cursive;
+  font-size: 100px;
+  text-align: center;
+  -webkit-box-shadow: rgb(100 150 180) 25px 25px 25px; 
+  border-color:;
+  
+}
+
+#nav{
+  color: tomato;
+  background-color: tomato;
+  font-family: "helvatica";
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  padding: 20px 18px;
+  -webkit-box-shadow: rgb(100 150 180) 25px 25px 10px;
+}
+
+
+
+ p {
+    font: ;
+    font-family: "Helvatica", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-variant: normal;
+    margin: 10px;
+    orphans: 1;
+    widows: inherit;
+    vertical-align: middle;
+
+}
+
+
+
+
+ul {
+}
+li{
+list-style: 5px solid lightpink;
+list-style-image: none;
+list-style-type: circle;
+background: #ffe5e5;
+padding: 10px;
+margin-bottom: 5px;
+margin-top: 10px;
+  }
+
+
+
+
+#all{
+  width: 75%;
+  padding: 5 px;
+  table-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px white;
+  border-color:darkgrey;
+  border-style: groove;
+  border-width: 5px 2px;
+  border-spacing: 8px;
+  
+}
+#general{
+  width: 75% ;
+  background-color: navajowhite;
+  color: darkgrey;
+  table-align: center;
+  text-decoration: underline;
+  
+  
+ }  
+#app {
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;
+  float: center;
+}  
+
+
+#sams2{
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}
+
+
+#nokia {
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;
+  vertical-align: img-top;
+}  
+
+#blackberry {
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}  
+
+#employee{
+  background-color: beige;
+  color: darkgrey;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 3px;   
+}    
+  
+#page-break-after: {
+  inherit;
+}
+
+
+
+#apple2{
+  vertical-align : text-top;
+
+  
