@@ -1,5 +1,5 @@
 body {
-  backgroun-color: lightgrey;
+  background-color: lightgrey;
   border: 1px solid lightgrey ;
   background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg");
   background-repeat: repeat;
