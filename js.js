@@ -1,7 +1,7 @@
 function tableSorting(table, column, asc = true) {
     const changeDrt = asc ? 1: -1
     const tBody = table.tBodies[0];
-    const row = Array.from(tBody.qSelectingAll("tr"))
+    const row = Array.from(tBody.qSelectingAll("tr"));
 
     const rowsSorted = row.sort((a, b) => {
         const textColumnA = a.qSelecting(`td:nth-child(${ column + 1 })`).contentText.trim();
