@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head and Title Parts Start-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    <! async > <script src="javascript.js" async> </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <title>Web Tech 178 assigment2</title>
+</head>
+<!-- Body and h1 Parts Start-->
+  
+<body>
+  
+     <h1 id="head" class="break" > The Phone Shop <img id=img1 src= "https://static.independent.co.uk/2021/11/05/09/Best%20smartphone%20copy.jpg?width=982&height=726&auto=webp&quality=75"> </h1>
+
+    <!--Nav Part Start-->
+    <div class="nav">
+        <nav>
+            <a href="#firstsection">Who are we ?</a> 
+            <a href="#secondsection">Service</a> 
+            <a href="#productTable"> Our Products</a>
+            <a href=#priceTable> Price</a>
+        </nav>
+    </div>
+  
+ <!--First Section Start-->
+    <section class="part1" id="firstsection">
+        <h1>Welcome to  The Phone Shop </h1>
+      <div id= "p1"> Welcome the our website ! We are Yuto and Gulben. We are students in first grade at <em>Vrije University Computer Science </em>! We prepared this site for <strong>Web Technology's 2st assigment. </strong> </div>
+      </pre>
+        <p> <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iwcknWNa0.9c/v1/-1x-1.jpg" alt="Amsterdam">
+                <p><dfn><abbr title="The Phone Shop">TPH</abbr>
+</dfn> is a website for selling second hand.</p>
+  </pre>
+        </div>
+    </section>
+
+    <!--Second Section Start-->
+        <!-- Services Part Start-->
+
+    <section id="secondsection">
+         <section id="secondsection">
+        <h2 id ="h2">Services </h2>
+        <div class="row">
+            <div class="card-body">
+                <h3 class="card-title">Our Services</h3>  
+                <ul id="first-list">
+                    <li> Repairing </li>
+                    <li> 2 years guarantee </li>
+                    <li> Customer Service </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Operating Systems</h3>
+                <dl id="second-list">
+                    <dt> iOS: </dt>
+                    <dd> Developed by Apple </dd>
+                    <dt> Android: </dt>
+                    <dd> Developed by Google </dd>
+                </dl>
+            </div>
+    </section>
+<figure id="figcaption">
+        <img src="https://thesavvybackpacker.com/wp-content/uploads/2017/01/amsterdam-cost-visit.jpg" alt="Amsterdam" id="AmsterdamImage">
+        <figcaption> Amsterdam </figcaption>
+    </figure>
+ <!--Third Section-->
+    <section class="product-table" id="productTable">
+        <h2>Our Product Table</h2>
+        <table>
+            <caption>Most popular Product</caption>
+            <thead>
+              <p> You can add your favorite ! </p>
+                <tr> 
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>OS</th>
+                    <th>ScreenSize</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td class="brand">Apple</td>
+                    <td>iPhone 13/td>
+                    <td class="os">iOS</td>
+                    <td data-label="ss">6.06 inches"</td>
+                    <td>< class = "image" img src="https://m.media-amazon.com/images/I/71tpxtLD0aL._AC_SX679_.jpg" weight= "100" height="130"> ></td>
+                </tr>
+                <tr>
+                    <td class="brand">Nokia</td>
+                    <td>X20</td>
+                    <td class="os">Android</td>
+                    <td>6.67"</td>
+                    <td><class = "image" img src ="https://www.360fiyat.com/wp-content/uploads/2021/05/Nokia-X20-7.jpg" weight= "100" height="130" alt="Samsung"></td>
+                </tr>
+                <tr>
+                    <td class="brand">Blackberry</td>
+                    <td>KeyLe</td>
+                    <td class="os">Android</td>
+                    <td>8.1</td>
+                    <td>< class= "image" img src="https://fdn2.gsmarena.com/vv/bigpic/blackberry-key2-le-.jpg" alt="Huawei"></td>
+                </tr>
+                <tr>
+                    <td class="brand">Samsung</td>
+                    <td>Note 8</td>
+                    <td class="os">Android</td>
+                    <td>6.3"</td>
+                    <td>< class = "image" img src="https://www.thebackmarket.nl/cdn-cgi/image/format=auto,quality=75,width=1080/https://d1eh9yux7w8iql.cloudfront.net/product_images/40320_a311e4de-213b-482a-bf92-c711026dcdcc.jpg" alt="Samsung"></td>
+                </tr> -->
+            </tbody>
+        </table>
+              <form id="productForm" action="" class="form-class">
+            <input type="text" id="brand" name="brand" placeholder="Brand" class="input-class" required>
+            <input type="text" id="model" name="model" placeholder="Model" class="input-class" required>
+            <input type="text" id="os" name="os" placeholder="OS" class="input-class" required>
+            <input type="text" id="screensize" name="screensize" placeholder="Screensize" class="input-class"
+                required>
+            <input type="url" id="image" name="image" placeholder="image URL" class="input-class" required>    
+                <br>
+            <input type="submit" name="submit" value="Add Item" class="button-class" id="submitButton">
+            <input type="reset" id="reset" name="reset" value="Reset" class="button-class">
+            <input type="button" id="getElemets" name="getDB" value="getDB" class="button-class">
+        </form>
+    </section>
+
+    <!--Fourth Section-->
+    <section class="product-table" id="priceTable">
+        <h2>Price Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iPhone 13</td>
+                    <td>$700</td>
+                    <td>1</td>
+                    <td>$750</td>
+                </tr>
+                <tr>
+                    <td>Nokia X20</td>
+                    <td>$700</td>
+                    <td>1</td>
+                    <td>$750</td>
+                </tr>
+                <tr>
+                    <td>Blackberry KeyLe</td>
+                    <td>$700</td>
+                    <td>1</td>
+                    <td>$750</td>
+                </tr>
+                <tr>
+                    <td>Samsung Note 8 </td>
+                    <td>$700</td>
+                    <td>1</td>
+                    <td>$750</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form class="form-class">
+            <input type="checkbox" class="input-class">
+            <label>Subscribe Newsletter</label>
+            <input type="submit" name="submit" value="Add To Basket" class="button-class">
+        </form>
+    </section>
+
+    <div id="contact-list">
+        <h3>Contact Us </h3>
+        <ul id = "thirdlist">
+            <li >Phone:+31 6 12 34 56 78</li>
+            <li>Mail: thewebshop@gmail.com</li>
+            <li>Address: Amsterdam Centraal</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+ <!--
+     When we prepared this Assignment 2, we googled codes and some sources.       
+       https://www.w3schools.com   
+       https://developer.mozilla.org   
+       https://learn.zybooks.com/zybook/VUX_400488vanOssenbruggenAY2022 -its book on the www.zybook.com- 
+       'Yakin Kampus' Youtube channel.
+-->
