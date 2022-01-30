@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  
+  font-family: 'Optima';
+  font-size: 20px;
+  color: #708090;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.5em;
+  float: center;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+h2.nameP {
+    border-bottom: 6px solid #20B2AA;
+}
+
+ol.ResponseList {
+    padding: 2rem;
+    white-space: pre;
+
+}
+    
+h3.get {
+border-bottom: 5px solid #20B2AA;
+}
+
+dt.urlParamSyntax {
+    border-left: 2px solid #20B2AA;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    
+    padding: 0.25em 1em;
+    background: #FDF5E6;
+    
+    font-family: 'Courier New', monospace;
+}
+code.urlParamName {
+    font-weight: bold;
+    margin: 0 1em 0 0;
+}
+
+span.urlParamType {
+    font-style: italic;
+}
+
+span.urlParamRequired {
+    font-style: italic;
+}
+p.urlParamValues {
+    font-family: 'Optima';
+}
+
+li.sampleRequest {
+    white-space: pre;
+    font-family: 'Optima';
+
+    background:#FDF5EA;
+    padding: 0.1em 1em;
+    border-left: 3px ;
+}
+
+
+li.samplerequest {
+    white-space: pre;
+    font-family: 'Optima';
+    
+    background:#FDF5EA;
+    padding: 1em 1em;
+    border-left: 2px ;
+}
+li.ResponseList {
+    white-space: pre;
+    font-family: 'Optima';
+
+    background:#FDF5EA;
+    padding: 0.1em 1em;
+    border-left: 3px ;
+}
+
+
+
+
+dl.errorCodes {
+margin: 0;
+padding: 0;
+}
+
+dt.errorCodeCode {
+    border-left: 2px  #20B2AA;
+    padding: 0.25em 1em;
+    background:#FDF5EA;
+;
+    font-family: 'Optima';
+
+}
+
+dd.errorCodeMeaning {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
