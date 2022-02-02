@@ -1,0 +1,328 @@
+<html lang="en">
+<!-- Head and Title Parts Start-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+  
+  <title> Assigment 4 - Group 178 </title>
+  
+  </head>
+  <style>
+    
+#all{
+  width: 75%;
+  padding: 5 px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px white;
+  border-color:darkgrey;
+  border-style: groove;
+  border-width: 5px 2px;
+  border-spacing: 8px;
+  
+}
+
+#general{
+  width: 75% ;
+  background-color: navajowhite;
+  color: darkgrey;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+
+.product-table{
+    border-collapse: collapse;
+    margin: center;
+    font-size: 10em;
+    text-align: center;
+    box-sizing: border-box;
+    font: 1em helvatica;
+}
+
+.product-table table{
+    caption-side: bottom;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-left: 10%;
+    padding-right:10%;
+    width: 100%;
+}
+
+.product-table caption{
+    
+    color:#cb6651;
+    background-color:#c7dcba ;
+    border-collapse: collapse;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: italic;
+    padding: 2em;
+}
+.product-table thead tr{
+    background-color: #f3e8ca ;
+    color: white;
+    font-weight: bold-italic;
+}
+
+.product-table th,
+.product-table td,
+.product-table tr{
+    position: relative;
+    padding: 0.5em 0.5em;
+}
+
+.product-table .ours{
+    font-weight: italic;
+}
+
+.product-table .part{
+    font-style: italic;
+}
+
+.product-table th{
+    text-transform: uppercase;
+}
+
+.product-table tbody tr{
+    border-bottom: 1px solid #f3e8ca;
+}
+
+.product-table tbody tr:nth-of-type(even) {
+    background-color: #f3e8ca;
+}
+
+.product-table tbody tr:nth-of-type(odd) {
+    background-color: #f9f9fa
+}
+
+.product-table tbody tr:last-of-type {
+    border-bottom: 0.1em solid #009879;
+}
+
+.product-table tbody tr:hover {
+    font-weight: bold;
+    color: #009879;
+}
+    </style>
+  <body>
+    <h1>Web Technology Assignment 4 Report</h1>
+    
+   <h3> Group 178</h3>
+   <h3> Yuto Ishihara </h3>
+   <h3> Gulben Sarici </h3>
+    <p> </p>
+    
+  <h2>Introduction </h2>
+    <p> Generally, the web page is clear about its aim. Also it does not have a main obstacle to cut usability and accessibility. Mostly the page has technical problems that depend on coding and backside area. But it is clear that it will affect the appropriate use of the page for the users. According to appendix A and B, it can be improved. Especially appendix B will help us to evaluate. Appendix A part mainly verified. As the main function of the page, the user can see phone models and costs respectively.</p>
+    
+  <h2> WCAG guidelines </h2>
+   <ul>
+   <li> According to W3C, Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. </li>
+
+<p>We used clearly this mean. When we used the orange we point to our navigation titles. When we used to green on our products table, the customers can understand easily and clearly the products name and their information  </p>
+
+<p>On the other hand, we used dark orange to separate add item table to products table.</p>
+<li>According to W3C, Bypass Blocks: A mechanism is available to bypass blocks of content that are repeated on multiple Web pages. (Level A). </li>
+<p>We thought that customer does not have to wast time when they look something at our website. We want to give a clear address for they can find easily what they want. Thus, we added a navigation system. It is so understandable and easy system. All customer can use this.</p> </ul> </p>
+    
+    <h2> Improvement Plan Section</h2>
+    
+    <h3> Web Content Accessibility Guidelines </h3>
+    
+      <h5>1.3.1 Info and Relationships: </h5>
+      <p> We used ‘id and class’ commands.</p>
+      
+     <h5> 1.3.2 Meaningful Sequence:</h5>
+      <p>We focused on this firstly. It was important that website is clearly understandable. We used navigation, information for our company and products. And we added the our contact in the end of website.
+ </p>
+      <h5>1.4.5 Images of Text </h5>  
+      <p> We used some pictures. Some of them explained products. The other two pictures is Amsterdam photo. There focus on our address.
+And other one used for our logo.
+</p>
+      <h5> 2.4.1 Bypass Blocks:  </h5>
+      <p>We add a navigation to do this. </p>
+      <h5> 2.4.2 Page Titled: </h5
+        <p> We add description text under each title. </p>
+      <h5>  2.4.3 Focus Order: </h5>
+      <p> When we create a navigation we made a ranking from general to specific. We focus on meaning, operation, and purpose of title. It is clearest and understandable.   </p>
+<h2> Improvement based on Appendix A</h2>
+ <p> We created already this website according to W3C website. Maybe we can add a video, but it is not necessary for our website format.</p>
+    
+ <h2> Improvement based on Appendix B </h2>
+    
+    <p> <ul id=1l> 
+        <li>We started with 'html', but we should start with 'html lang="en".</li>
+        <li>The other point: 'meta charset="UTF-8'. We didn't use this.</li>
+        </ul> </p>
+  
+  
+  <section class="product-table" id="productTable">
+  <h2> TA Feedbacks Table </h2>
+  <table id = "all">
+    <tr id= "general">
+            <th> ASSIGMENT-1 HTML PART </th>
+            <th> TA FEEDBACK </th>
+            <th> OUR DESCRIPTION</th>
+            <th> EFFECTS </th>
+           </tr>
+    
+  <tr>
+      <td class="part">PART 1 (All items from Appendix 1)</td>
+      <td> <em>"There were 2 missing HTML tag, we deduct 2 points (2*2 = 4)" </em> </td>
+      <td class="feedback"> 
+        <ul id=1l> 
+        <li>We started with 'html', but we should start with 'html lang="en".</li>
+        <li>The other point: 'meta charset="UTF-8'. We didn't use this.</li>
+        </ul>
+</td>
+      <td data-label="ours"> There are positive effect. We had to indicate program language. The charset attribute specifies the character encoding for the HTML document.
+
+The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world!"</td>
+  </tr>
+  <tr>
+      <td class="part">PART 2 (Interactive form)</td>
+      <td> 'The form does not post to API.'</td>
+      <td class="feedback">The html part of Assigment 1 does not open very well. We did not use 'link' code. </td>
+      <td class= "ours"> It is important effect. Specifies the URL of the page the link goes to.
+ </td>
+      </tr>
+ <tr>
+      <td class="part">PART 3 (Validator check)</td>
+      <td class= "feedback">'style' element between 'head' and 'body'.</td>
+      <td class="ours">We had to use these code in CSS part for styling of our website.</td>
+      <td>It does not affect whether HTML and CSS work or not.</td>
+    </tr>
+  <tr>
+      <td class="part">PART 4 (Misc)</td>
+      <td class= "feedback">Maximum 5 points will be awarded for miscellaneous features. These may include readable markup, good and consequent use of indentation, adding open and closing tags beyond the requirements of the HTML5 validator, proper use of HTML comments, correct use of file names as required in the assignment and submission instructions, inventive use of appropriate semantic HTML markup beyond the minimum list.</td>
+      <td class="ours"> We did not have enough commands to explain our codes.</td>
+      <td>It was important. Because if we add command, TA could see and understand easily, but it is not neccessary to work this code.</td>
+   </tr> 
+    <tr>
+      <td class="part">PART 5 (Penalty for style and other bad markup)</td>
+      <td class = "feedback">Css is in the document. This does not follow the law of exclusion that we demonstrated in class (Keep all CSS in the css file).
+</td>
+      <td class="ours"> We used the css part in html part.</td>
+      <td>It does not affect whether HTML and CSS work or not.</td>
+   </tr> 
+  </table>
+  </section>
+  
+    <section class="product-table" id="productTable">
+  
+  <table id = "all">
+    <tr id= "general">
+            <th> ASSIGMENT-1 CSS PART </th>
+            <th> TA FEEDBACK </th>
+            <th> OUR DESCRIPTION</th>
+            <th> EFFECTS </th>
+           </tr>
+    
+  <tr>
+      <td class="part">PART 1 (All items from Appendix 2)</td>
+      <td> <em>  '[ERROR]: 5 attributes missing across all css files:
+                 - caption-side - font - list-style-position
+                  - page-break-after - page-break-before' </em> </td>
+      <td class="feedback">
+           There are important for styling.
+        </td>
+      <td data-label="ours"> It does not affect whether HTML and CSS work or not.</td>
+  </tr>
+  <tr>
+      <td class="part">PART 2 ( print style)</td>
+      <td> 'form still in table, table does not start on new page...
+'</td>
+      <td class="os"> It is not nesseccary.. </td>
+      <td> It does not affect whether HTML and CSS work or not. </td>
+      </tr>
+ <tr>
+      <td class="brand">PART 3 ( screen style)</td>
+      <td>There was nothing done to fulfill this criteria. The print and screen medias were identical. There was no resizing of text depending on the window, meaning horizontal scrolling was needed. When the browser window has a smaller width than the image, text would wrap around (Title comes below image).</td>
+      <td class="ours"> We could not focus on the fix this error.</td>
+      <td>It does important negative effect for image styling </td>
+    </tr>
+  <tr>
+      <td class="part">PART 4 (Responsive design)</td>
+      <td> Some of the text becomes quite hard to read in the phone version of the website. But this is mostly due to accessibility and as such you will handle this in week 4 </td> 
+      <td class="ours"> We could not explain clearly our codes .</td>
+      <td>It does not affect whether HTML and CSS work or not.</td>
+      </tr> <tr>
+      <td class="part">PART 5 (browser compatibility report)</td>
+      <td> Max 5 points awarded for a good browser compatibility report that shows you are aware of differences between browsers, and know how to deal with them. </td> 
+      <td class="ours"> We could not focus on the fix this error.</td>
+      <td>It does not affect whether HTML and CSS work or not.</td>
+   </tr> 
+    
+    <tr>
+      <td class="part">PART 6 (Misc)</td>
+      <td> The Markup, on second read, was quite readable. There was good indentation. At times, the names were confusing, and nothing outside of the requirements was done.
+ </td> 
+      <td class="ours"> We could not  choose a clear id and class our items on our project</td>
+      <td>It does not affect whether HTML and CSS work or not.</td>
+   </tr> 
+    
+    <tr>
+      <td class="part">PART 7 (validator check)</td>
+      <td> 5 points will be awarded to a submission that correctly validates using the CSS validator. This means that there are no errors. Try to avoid warnings too, but this is not mandatory to earn the 5 points.</td> 
+      <td class="ours"> We had 5 points from this part.</td>
+      <td>It affects positevly on CSS part.</td>
+   </tr> 
+  </table>
+  </section>
+  
+    
+  <section class="product-table" id="productTable">
+  <table id = "all">
+    <tr id= "general">
+            <th> ASSIGMENT-2 </th>
+            <th> TA FEEDBACK </th>
+            <th> OUR DESCRIPTION </th>
+            <th> EFFECTS </th>
+           </tr>
+    
+  <tr>
+      <td class="part">PART 1 (Sortable tables)</td>
+      <td> <em>  </em> </td>
+      <td class="ours"> We took top points this part. We prepared clearly sortable tables depend on JavaScript.
+        
+</td>
+      <td data-label="ours"> There are positive effect. We had to catch interactive stle.</td>
+  </tr>
+  <tr>
+      <td class="part">PART 2 (Reset button)</td>
+      <td> 'You did not have the correct endpoint for the reset. should end in '/reset'!
+'</td>
+      <td class="ours">We could not do clearl endpoint to reset </td>
+      <td> It is important negative effect. </td>
+      </tr>
+ <tr>
+      <td class="part">PART 3 (Dynamic table)</td>
+      <td>Well done!</td>
+      <td class="ours">When we created the tables,we were carefully our tables compatible with jQuery & AJAX.</td>
+      <td>It affects posively on interactive tables.</td>
+    </tr>
+  <tr>
+      <td class="part">PART 4 (single page application)</td>
+      <td> </td>
+      <td class="ours"> We created submit button correctly: using AJAX for sending the form data to the server in JSON, updating the table with the new data without reloading the entire page.</td>
+      <td> It is necessary, possitive effects. </td>
+   </tr> 
+    <tr>
+      <td class="part">PART 5 (Misc: clear comments and correct use of filenames as required in the submission instructions.)</td>
+      <td> Be sure your submission works! Renaming files and not updating their reference broke the assignment. I had to fix these references (and load JQuery before your script) to get it to work. Watch out!
+</td>
+      <td class="ours"> We could not check clearly whether our submission work or not. </td>
+      <td>The comment is so important, and positevly. Becouse it does not matter what we did if our submittion does not work.</td>
+   </tr> 
+  </table>
+  </section>
